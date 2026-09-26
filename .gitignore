@@ -1,0 +1,42 @@
+# Unreal Engine Gitignore
+
+# Visual Studio / VS Code / Rider temporary files
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Unreal Engine directories to ignore (generated files and caches)
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vsconfig
+
+# Crash reports and logs
+*.log
+*.dmp
+
+# Auto-saved and backup files
+*Sync*
+*CrashReport*
+
+# Packaging and cook outputs
+*.apk
+*.ipa
+*.app
+Package/
+Packages/
+StagedBuilds/
+Platforms/
+
+# Ignore OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
